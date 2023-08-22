@@ -340,6 +340,7 @@ button:focus {
     border-radius: 16px;
     border: none;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .more h3 {
@@ -348,6 +349,14 @@ button:focus {
     font-size: 24px;
     font-weight: 700;
     margin: auto;
+}
+
+.more:hover {
+    background: #FF9330;
+}
+
+.more:active {
+    background: #EC7202;
 }
 
 .specialization {
